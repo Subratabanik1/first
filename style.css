@@ -32,16 +32,22 @@
 
 }
 .para{
-
+font-size: 20px;
+margin-top: 18px;
+margin-bottom: 18px;
 }
 .but{
     background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 .bannerphoto{
 
 }
 .img{
-    width: 300px;
+    width: 500px;
 }
 .bannercontainer{
     display: flex;
@@ -53,8 +59,17 @@
     linear-gradient(45deg,rgb(44, 43, 43),black);
     background-color: aliceblue;
     color: azure;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 60px;
     font-weight: bold;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
