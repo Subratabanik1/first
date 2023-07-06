@@ -27,3 +27,34 @@
 .item:hover{
     color: cyan;
 }
+.bannertext{
+
+
+}
+.para{
+
+}
+.but{
+    background-color: red;
+}
+.bannerphoto{
+
+}
+.img{
+    width: 300px;
+}
+.bannercontainer{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    align-items: center;
+    background-image: url(background.png),
+    linear-gradient(45deg,rgb(44, 43, 43),black);
+    background-color: aliceblue;
+    color: azure;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
